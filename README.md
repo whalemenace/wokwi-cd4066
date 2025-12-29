@@ -130,7 +130,7 @@ Not a precision analog simulator.
 If both sides drive conflicting values, the model prioritizes “LOW wins” behavior (useful for pullup-to-ground button press simulation).
 
 License
-MIT (or whatever you’ve chosen for the repo).
+MIT
 
 Credits
 Built on Wokwi Custom Chips (C API + WASM compilation flow).
