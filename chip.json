@@ -1,13 +1,20 @@
 {
-  "version": 1,
-  "name": "Inverter",
-  "author": "Uri Shaked",
-  "license": "MIT",
-  "docs": "https://github.com/wokwi/inverter-chip/blob/main/docs/README.md",
+  "name": "CD4066 / 74HC4066 (Quad Bilateral Switch)",
+  "author": "Dave",
   "pins": [
-    "OUT",
-    "IN",
-    "VCC",
-    "GND"
+    "1Y",
+    "1Z",
+    "1E",
+    "2Z",
+    "2Y",
+    "2E",
+    "GND",
+    "3E",
+    "3Y",
+    "3Z",
+    "4E",
+    "4Z",
+    "4Y",
+    "VCC"
   ]
 }
