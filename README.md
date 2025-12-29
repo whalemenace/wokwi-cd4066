@@ -57,8 +57,7 @@ chips/
 cd4066.chip.wasm
 cd4066.chip.json
 
-lua
-Copy code
+
 
 ### 2) Register the chip in `wokwi.toml`
 
@@ -66,9 +65,11 @@ Copy code
 [[chip]]
 name = "cd4066"
 binary = "chips/cd4066.chip.wasm"
-3) Use it in diagram.json
-json
-Copy code
+```
+
+### 3) Use it in diagram.json
+```json
+
 {
   "parts": [
     { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 60, "left": -160, "attrs": {} },
@@ -85,6 +86,7 @@ Copy code
     // repeat for channels 2–4 as needed
   ]
 }
+```
 In plain English:
 
 Connect Y/Z to the two nets you want to short (like a real button’s two pads).
